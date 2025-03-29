@@ -1,0 +1,14 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "electron . --no-sandbox"
+  },
+  "author": "William Sena",
+  "license": "MIT",
+  "description": "Electron Quickstart",
+  "devDependencies": {
+    "electron": "^35.1.2"
+  }
+}
