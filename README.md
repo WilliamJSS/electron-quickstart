@@ -1,6 +1,12 @@
 # Electron + WSL2 + Docker
 
-Prerequisites: [GUI app + WSL2 + Docker](https://github.com/WilliamJSS/gui-app-wsl-docker)
+## Prerequisites
+
+- Install VcXsrv and setup XLaunch (see [GUI app + WSL2 + Docker](https://github.com/WilliamJSS/gui-app-wsl-docker))
+
+## Run
+
+__For to see your ip, open Powershell and send command `ipconfig` and search for "WSL vEthernet Adapter"__
 
 ```bash
 make up DISPLAY=your.ip
