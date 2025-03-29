@@ -15,11 +15,3 @@ RUN apt-get update && \
         libxss-dev
 
 WORKDIR /node
-
-COPY package*.json .
-
-RUN npm install
-
-COPY . .
-
-CMD [ "npm", "run", "dev" ]

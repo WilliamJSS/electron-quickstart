@@ -8,8 +8,14 @@
 
 __For to see your ip, open Powershell and send command `ipconfig` and search for "WSL vEthernet Adapter"__
 
+Up container
 ```bash
 make up DISPLAY=your.ip
+```
+
+Run project
+```bash
+make run
 ```
 
 ## References
